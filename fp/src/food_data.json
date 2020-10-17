@@ -1,0 +1,1497 @@
+[
+    {
+        "id": "FR001",
+        "chiName": "蘋果",
+        "engName": "Apple",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "FR002",
+        "chiName": "牛油果",
+        "engName": "Avocado",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "FR003",
+        "chiName": "香蕉",
+        "engName": "Banana",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "FR004",
+        "chiName": "藍莓",
+        "engName": "Blueberry",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "FR005",
+        "chiName": "哈密瓜",
+        "engName": "Cantaloupe ",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "FR006",
+        "chiName": "火龍果",
+        "engName": "Dragonfruit",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "FR007",
+        "chiName": "奇異果",
+        "engName": "Kiwi",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "FR010",
+        "chiName": "橙",
+        "engName": "Orange",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "FR011",
+        "chiName": "木瓜",
+        "engName": "Papaya",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "FR012",
+        "chiName": "梨",
+        "engName": "Pear",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "FR013",
+        "chiName": "菠蘿",
+        "engName": "Pineapple",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "FR014",
+        "chiName": "士多啤梨",
+        "engName": "Strawberry",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "FR015",
+        "chiName": "西瓜",
+        "engName": "Watermelon",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "ME003",
+        "chiName": "雞肉",
+        "engName": "Chicken",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "ME004",
+        "chiName": "豬肉",
+        "engName": "Pork",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "ME006",
+        "chiName": "肥牛",
+        "engName": "Sliced Beef",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "ME007",
+        "chiName": "牛扒",
+        "engName": "Steak",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "SF001",
+        "chiName": "鮑魚",
+        "engName": "Abalone",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "SF002",
+        "chiName": "花螺/東風螺",
+        "engName": "Babylon",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "SF003",
+        "chiName": "大眼雞",
+        "engName": "Big Eye",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "SF004",
+        "chiName": "九肚魚",
+        "engName": "Bombay Duck",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "SF005",
+        "chiName": "花蟹/紅蟹/三點蟹",
+        "engName": "Crab",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "SF006",
+        "chiName": "墨魚",
+        "engName": "Cuttlefish",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "SF007",
+        "chiName": "扇貝",
+        "engName": "Fan Scallop",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "SF008",
+        "chiName": "牛鰍",
+        "engName": "Flathead",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "SF009",
+        "chiName": "沙白",
+        "engName": "Galaxy White",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "SF010",
+        "chiName": "紅衫魚",
+        "engName": "Golden Thread",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "SF011",
+        "chiName": "烏頭",
+        "engName": "Grey Mullet",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "SF012",
+        "chiName": "花甲",
+        "engName": "Halaan",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "SF013",
+        "chiName": "馬頭",
+        "engName": "Horsehead Banak",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "SF014",
+        "chiName": "東星斑/芝麻斑",
+        "engName": "Lapu Lapu",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "SF015",
+        "chiName": "馬鮫魚",
+        "engName": "Mackerel",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "SF016",
+        "chiName": "紅鮪",
+        "engName": "Mangrove Snapper",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "SF017",
+        "chiName": "瀨尿蝦",
+        "engName": "Mantis Shrimp",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "SF018",
+        "chiName": "青口",
+        "engName": "Mussel",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "SF019",
+        "chiName": "白飯魚",
+        "engName": "Noodlefish",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "SF020",
+        "chiName": "䱽魚",
+        "engName": "Promfret",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "SF021",
+        "chiName": "泥鯭",
+        "engName": "Rabbitfish",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "SF022",
+        "chiName": "蟶子",
+        "engName": "Razorclam",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "SF023",
+        "chiName": "石九公",
+        "engName": "Rockfish",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "SF024",
+        "chiName": "蝦",
+        "engName": "Shrimp",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "SF025",
+        "chiName": "黃鱲䱽",
+        "engName": "Snubnose Pompano",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "SF026",
+        "chiName": "魷魚",
+        "engName": "Squid",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "SF027",
+        "chiName": "黃花魚",
+        "engName": "Yellow Croaker",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "SF028",
+        "chiName": "黃腳鱲",
+        "engName": "Yellowfin Seabream",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "VE1",
+        "chiName": "白菜",
+        "engName": "Bok Choy",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "VE2",
+        "chiName": "西蘭花",
+        "engName": "Brocolli",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "VE3",
+        "chiName": "蘿蔔",
+        "engName": "Carrot",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "VE4",
+        "chiName": "椰菜花",
+        "engName": "Cauliflower",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "VE5",
+        "chiName": "大白菜",
+        "engName": "Chinese Cabbage",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "VE6",
+        "chiName": "韭菜",
+        "engName": "Chinese Chive",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "VE7",
+        "chiName": "唐生菜",
+        "engName": "Chinese Lettuce",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "VE8",
+        "chiName": "菜心",
+        "engName": "Choi Sum",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "VE9",
+        "chiName": "粟米",
+        "engName": "Corn",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "VE10",
+        "chiName": "矮瓜",
+        "engName": "Eggplant",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "VE11",
+        "chiName": "蒜頭",
+        "engName": "Garlic",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "VE12",
+        "chiName": "薑",
+        "engName": "Ginger",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "VE13",
+        "chiName": "羽衣甘藍",
+        "engName": "Kale",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "VE14",
+        "chiName": "西生菜",
+        "engName": "Lettuce",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "VE15",
+        "chiName": "洋蔥",
+        "engName": "Onion",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "VE16",
+        "chiName": "燈籠椒",
+        "engName": "Pepper",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "VE17",
+        "chiName": "馬鈴薯",
+        "engName": "Potato",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "VE18",
+        "chiName": "青蘿蔔",
+        "engName": "Reddish",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "VE19",
+        "chiName": "番茄",
+        "engName": "Tomato",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    },
+    {
+        "id": "VE20",
+        "chiName": "油麥菜",
+        "engName": "You Mak Choi",
+        "alias": null,
+        "picking_tips": {
+            "appearance": null,
+            "touch": null,
+            "smell": null,
+            "sound": null,
+            "other": null
+        },
+        "food_info": {
+            "variation": {
+                "vs": {
+                    "name": "",
+                    "description": null
+                }
+            }
+        },
+        "nutrients": null,
+        "buy_location": null
+    }
+]
