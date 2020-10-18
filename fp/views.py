@@ -43,7 +43,7 @@ def upload(request):
 def predict(request):
     if  request.method == "POST":
         f=request.FILES['sentFile']
-        response = {}
+        # response = {}
         file_name = "pic.jpg"
         file_name_2 = default_storage.save(file_name, f)
         file_url = default_storage.url(file_name_2)
