@@ -12,7 +12,8 @@ from django.conf import settings
 import os
 import json
 import heapq
-import pymongo
+# import pymongo
+import traceback
 import tensorflow as tf
 import matplotlib.pyplot as plt
 import numpy as np
@@ -37,13 +38,13 @@ def upload(request):
 def predict(request):
     if  request.method == "POST":
         f=request.FILES['sentFile']
-        # response = {}
+        response = {}
         file_name = "pic.jpg"
         file_name_2 = default_storage.save(file_name, f)
         file_url = default_storage.url(file_name_2)
 
         # load and preprocess the image
-        img = plt.imread('/Users/foodpicker/Foodpicker/fp_django'+file_url)
+        img = plt.imread('/Users/foodpicker/fp/fp_django'+file_url)
 
         # Change the directory to ubuntu
         # img = plt.imread('/projects/django'+file_url)
@@ -58,9 +59,9 @@ def predict(request):
         food = []
         for i in top_5:
             food.append(data[i])
-        # response['name'] = str(food)
-        return JsonResponse(food, safe=False)
-        # return render(request,'homepage.html',response)
+        response['name'] = str(food)
+        # return JsonResponse(food, safe=False)
+        return render(request,'homepage.html',response)
 
     else:
         print("Something is wrong in the predic views.")
