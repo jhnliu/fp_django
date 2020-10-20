@@ -32,7 +32,7 @@ def food_data(request):
     return HttpResponse(data)
 
 def upload(request):
-    return render(request, 'fp/image_upload.html')
+    return render(request, 'homepage.html')
 
 def predict(request):
     if  request.method == "POST":
@@ -44,6 +44,10 @@ def predict(request):
 
         # load and preprocess the image
         img = plt.imread('/Users/foodpicker/Foodpicker/fp_django'+file_url)
+
+        # Change the directory to ubuntu
+        # img = plt.imread('/projects/django'+file_url)
+
         img = tf.image.resize_with_crop_or_pad(img, 200,200)
         img = tf.stack([img], axis=0)
 
