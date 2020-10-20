@@ -1,35 +1,29 @@
-from django.shortcuts import render, get_object_or_404
 
 # Load required package from django
 from django.http import HttpResponse, JsonResponse
-from django.views.generic import ListView, CreateView
-# from .models import Post
+from django.shortcuts import render
+# from django.views.generic import ListView, CreateView
 from django.urls import reverse_lazy
-# from .forms import PostForm
-import base64
 from django.core.files.base import ContentFile
 from django.core.files.storage import default_storage
 from django.conf import settings 
-# from tensorflow.python.keras.backend import set_session
-import matplotlib.pyplot as plt
-import numpy as np
+
+# Load packages for tf
 import os
 import json
 import heapq
+import pymongo
 import tensorflow as tf
+import matplotlib.pyplot as plt
+import numpy as np
+# from .models import Post
+# from .forms import PostForm
 
-# class HomePageView(ListView):
-#     model = Post
-#     template_name = 'home.html'
-
-# class CreatePostView(CreateView):
-#     model = Post
-#     form_class = PostForm
-#     template_name = 'post.html'
-#     success_url = reverse_lazy('fp:home')
-
+# Load tensorflow model
 model = tf.keras.models.load_model('fp/src/13Oct_62food')
 print("Successfully loaded model")
+
+# Connect to DB
 
 with open('fp/src/food_data.json', 'r') as f:
     data = json.load(f)
@@ -67,3 +61,14 @@ def predict(request):
     else:
         print("Something is wrong in the predic views.")
         # return render(request,'homepage.html')
+
+
+# class HomePageView(ListView):
+#     model = Post
+#     template_name = 'home.html'
+
+# class CreatePostView(CreateView):
+#     model = Post
+#     form_class = PostForm
+#     template_name = 'post.html'
+#     success_url = reverse_lazy('fp:home')
