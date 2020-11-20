@@ -29,12 +29,20 @@ print("Successfully loaded model")
 with open('fp/src/food_data.json', 'r') as f:
     data = json.load(f)
 
+# Get request for checking the database
 def food_data(request):
     return HttpResponse(data)
 
-def upload(request):
+#Can we construct the picking tips, variety and origin immediately after the image classification
+# Get request for variety
+def get_variety(request):
     return render(request, 'homepage.html')
 
+# Get request for for origin
+def get_origin(request):
+    return render(request, 'homepage.html')
+
+# POST request for Image Classification to return the food object
 def predict(request):
     if  request.method == "POST":
         f=request.FILES['sentFile']
@@ -50,9 +58,9 @@ def predict(request):
         # img = plt.imread('/projects/django'+file_url)
 
         img = tf.image.resize_with_crop_or_pad(img, 200,200)
-        img = tf.stack([img], axis=0)
-
+       
         # Get the predictions and return the top 5
+        img = tf.stack([img], axis=0)
         pred = model.predict(img)
         top_5 = heapq.nlargest(5, range(len(pred[0])), key=pred[0].__getitem__)
 
@@ -64,16 +72,5 @@ def predict(request):
         return render(request,'homepage.html',response)
 
     else:
-        print("Something is wrong in the predic views.")
-        # return render(request,'homepage.html')
-
-
-# class HomePageView(ListView):
-#     model = Post
-#     template_name = 'home.html'
-
-# class CreatePostView(CreateView):
-#     model = Post
-#     form_class = PostForm
-#     template_name = 'post.html'
-#     success_url = reverse_lazy('fp:home')
+        # print("Something is wrong in the predic views.")
+        return render(request,'homepage.html')

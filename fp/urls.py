@@ -5,7 +5,8 @@ from . import views
 
 app_name = 'fp'
 urlpatterns = [
-    path('', views.predict, name='upload'),
-    # path('predict', views.predict, name='predict'),
+    path('predict', views.predict, name='predict'),
+    # path('variety', views.variety, name='variety'),
+    # path('origin', views.origin, name='origin'),
     path('data', views.food_data, name='all_food'),
 ]
