@@ -1,7 +1,7 @@
 
 # Load required package from django
 from django.http import HttpResponse, JsonResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 # from django.views.generic import ListView, CreateView
 from django.urls import reverse_lazy
 from django.core.files.base import ContentFile
@@ -12,20 +12,19 @@ from django.conf import settings
 import os
 import json
 import heapq
-# import pymongo
+import pymongo
 import traceback
 import tensorflow as tf
 import matplotlib.pyplot as plt
 import numpy as np
 # from .models import Post
-# from .forms import PostForm
+# from .forms import *
 
 # Load tensorflow model
 model = tf.keras.models.load_model('fp/src/13Oct_62food')
 print("Successfully loaded model")
 
-# Connect to DB
-
+# Connect to food data
 with open('fp/src/food_data.json', 'r') as f:
     data = json.load(f)
 
@@ -34,13 +33,16 @@ def food_data(request):
     return HttpResponse(data)
 
 #Can we construct the picking tips, variety and origin immediately after the image classification
-# Get request for variety
-def get_variety(request):
-    return render(request, 'homepage.html')
+# # Get request for variety
+# def get_variety(request):
+#     return render(request, 'homepage.html')
 
-# Get request for for origin
-def get_origin(request):
-    return render(request, 'homepage.html')
+# # Get request for for origin
+# def get_origin(request):
+#     return render(request, 'homepage.html')
+
+def success(request): 
+    return HttpResponse('successfully uploaded') 
 
 # POST request for Image Classification to return the food object
 def predict(request):
