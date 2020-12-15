@@ -1,8 +1,9 @@
-# from django import forms
-# from .models import *
+from django.forms import ModelForm
+from .models import Food
 
-# class PostForm(forms.ModelForm):
+class FoodForm(ModelForm):
 
-#     class Meta:
-#         model = Post
-#         # fields = ['name', 'food_img']
+    class Meta:
+        model = Food
+        fields = ['price', 'appearance', 'smell', 'touch','sound',]
+    
