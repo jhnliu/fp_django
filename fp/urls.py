@@ -9,17 +9,20 @@ from .views import *
 
 app_name = 'fp'
 urlpatterns = [
-    path('fp/predict/', predict, name='predict'),
-    path('fp/name_photo/', name_photo, name='name_photo'),
+    path('predict/', predict, name='predict'),
+    path('name_photo/', name_photo, name='name_photo'),
+    path('name_other/', name_other, name='name_other'),
+    path('consumed_food/', consumed_food, name='consumed_food'),
+    path('nut_status/', nut_status, name='check nutrient status'),
+    path('check_food_log/', check_food_log, name='check food log'),
     # path('variety', views.variety, name='variety'),
     # path('origin', views.origin, name='origin'),
-    path('fp/data/', f_data, name='all_food'),
+    path('data/', f_data, name='all_food'),
     path('accounts/', include('django.contrib.auth.urls')),
     path('accounts/login/', auth_views.LoginView.as_view(template_name='templates/login.html'), name='user-login'),
     path('accounts/signup/', SignUpView.as_view(), name='signup'),
-    re_path(r'^api/fp$', food_list),
-    re_path(r'^api/fp/(?P<food_id>[a-zA-Z0-9]+)$', food_details),
-    re_path(r'^api/fp/published$', food_list_published)
+    re_path(r'^food_list', food_list),
+    re_path(r'^food_detail/(?P<label>[0-9A-z]+)$', food_details),
 ]
 
 if settings.DEBUG:
